@@ -10,7 +10,24 @@ Base line height: 24px // 1.333em (24/18)
 
 html{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.125em;
-  line-height: 1.3333em;
-  padding: 1.33em, 0.66em, 1.33em, 0.66em;
+  font-size: 1.125em; /* 18px / 16px */
+  line-height: 1.3333em;/*24px / 20px = 1.2 */
+  padding: 1.33em 0.66em 1.33em 0.66em;
+}
+
+h1{
+  font-size: 1.999em; /* 31.984px/16px */
+  line-height: 1.126em; /* 36px/31.984px */
+  padding-bottom: 1.126em; /* 48px/31.984px */
+  padding-top: 1.126em;
+}
+
+h2{
+  font-size: 1.5em; /* 23.99px/16px */
+  line-height: 1.5em; /* 36px/23.99px */
+  padding-top: 0.500em; /* 12px/23.99px */
+}
+
+h3{
+  font-weight: 600;
 }
