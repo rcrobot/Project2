@@ -43,9 +43,23 @@ img{
   display: block;
 }
 
+.nav a{
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.nav li{
+  padding-bottom: 0.5em
+}
+
 @media screen and (min-width: 500px) {
   .nav {
-    width: 66.66666667%;
+    width: 66.667%;
     margin-left: auto;
+  }
+  img{
+    float: left;
+    width: 50%
   }
 }
