@@ -50,7 +50,7 @@ img{
 }
 
 .nav li{
-  padding-bottom: 0.5em
+  padding-bottom: 0.5em;
 }
 
 @media screen and (min-width: 31.25em) {
@@ -60,6 +60,13 @@ img{
   }
   img{
     float: left;
-    width: 50%
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 87.5em){
+  img{
+    float: left;
+    width: 35%;
   }
 }
