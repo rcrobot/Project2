@@ -46,7 +46,9 @@ img{
 .nav a{
   display: block;
   text-decoration: none;
-  padding: 1em;
+  padding: 0.5em;
+  color: black;
+  background-color: grey;
 }
 
 .nav li{
