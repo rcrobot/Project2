@@ -59,6 +59,12 @@ nav ul{
   list-style-type: none;
 }
 
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+  background-color: darkgrey;
+}
+
 @media screen and (min-width: 31.25em) {
   .nav {
     width: 66.667%;
