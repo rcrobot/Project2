@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /*@import url('//basehold.it/24');*/
 
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0};
 
 /*
 Base font-size: 18px // 1.125em (18/16)
@@ -10,40 +10,40 @@ Base line height: 24px // 1.333em (24/18)
 
 
 
-html{
-  font-family: 'Open Sans', sans-serif;
+html {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125em; /* 18px / 16px */
   line-height: 1.3333em;/*24px / 20px = 1.2 */
   padding: 1.33em 0.66em 1.33em 0.66em;
 }
 
-h1{
+h1 {
   font-size: 1.999em; /* 31.984px/16px */
   line-height: 1.126em; /* 36px/31.984px */
   padding-bottom: 1.126em; /* 48px/31.984px */
   padding-top: 1.126em;
 }
 
-h2{
+h2 {
   font-size: 1.5em; /* 23.99px/16px */
   line-height: 1.5em; /* 36px/23.99px */
-  padding-top: 0.500em; /* 12px/23.99px */
+  padding-top: 0.5em; /* 12px/23.99px */
 }
 
-h3{
+h3 {
   font-weight: 600;
 }
 
-ul{
+ul {
   margin-left: 0.6666em;
   list-style-type: disc;
 }
 
-img{
+img {
   display: block;
 }
 
-.nav a{
+.nav a {
   display: block;
   text-decoration: none;
   padding: 0.5em;
@@ -51,12 +51,12 @@ img{
   background-color: grey;
 }
 
-.nav li{
+.nav li {
   padding-bottom: 0.5em;
   padding-right: 0.66em;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
 }
 
@@ -71,27 +71,27 @@ nav ul{
     display: flex;
     margin-left: auto;
   }
-  .nav li{
+  .nav li {
     flex: 1 0 0;
     margin-right: 1em;
     padding-right: 0;
   }
-  h1{
+  h1 {
     text-align: center;
   }
-  main{
+  main {
     padding-left: 16.666%;
     padding-right: 16.666%;
   }
 
-  img{
+  img {
     float: left;
     width: 50%;
   }
 }
 
-@media screen and (min-width: 87.5em){
-  img{
+@media screen and (min-width: 87.5em) {
+  img {
     float: left;
     width: 35%;
   }
