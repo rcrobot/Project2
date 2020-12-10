@@ -53,6 +53,7 @@ img{
 
 .nav li{
   padding-bottom: 0.5em;
+  padding-right: 0.66em;
 }
 
 nav ul{
@@ -67,8 +68,13 @@ nav ul{
 
 @media screen and (min-width: 31.25em) {
   .nav {
-    width: 66.667%;
+    display: flex;
     margin-left: auto;
+  }
+  .nav li{
+    flex: 1 0 auto;
+    margin-right: 1em;
+    padding-right: 0;
   }
   img{
     float: left;
