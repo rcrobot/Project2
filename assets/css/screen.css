@@ -76,6 +76,13 @@ nav ul{
     margin-right: 1em;
     padding-right: 0;
   }
+  h1{
+    text-align: center;
+  }
+  main{
+    padding-left: 16.666%;
+    padding-right: 16.666%;
+  }
 
   img{
     float: left;
