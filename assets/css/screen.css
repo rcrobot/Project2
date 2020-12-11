@@ -16,53 +16,48 @@ html {
   line-height: 1.3333em;/*24px / 20px = 1.2 */
   padding: 1.33em 0.66em 1.33em 0.66em;
 }
-
 aside ul {
   list-style-type: none;
 }
-
 h1 {
   font-size: 1.999em; /* 31.984px/16px */
   line-height: 1.126em; /* 36px/31.984px */
   padding-bottom: 1.126em; /* 48px/31.984px */
   padding-top: 1.126em;
 }
-
 h2 {
   font-size: 1.5em; /* 23.99px/16px */
   line-height: 1.5em; /* 36px/23.99px */
   padding-top: 0.5em; /* 12px/23.99px */
   margin-bottom: 1em;
 }
-
 h3 {
   font-weight: bold;
   font-size: 1.5em;
   margin-top: 0.5em;
 }
-
 #education ul li{
   list-style-type: none;
   margin: 0;
   margin-left: 1em;
 }
-
 ul li ul {
   margin-left: 2em;
   list-style-type: disc;
 }
-
 img {
   display: block;
   max-width: 100%;
 }
-
 ol li{
   list-style-type: disc;
   margin-left: 2em;
   margin-bottom: 0.25em;
 }
-
+#neighborhoods {
+  list-style-type: circle;
+  padding-left: 1em;
+}
 .nav a {
   display: block;
   text-decoration: none;
@@ -70,7 +65,6 @@ ol li{
   color: black;
   background-color: grey;
 }
-
 .nav li {
   padding-bottom: 1em;
   padding-right: 0.66em;
@@ -79,7 +73,6 @@ ol li{
 nav ul {
   list-style-type: none;
 }
-
 .nav a:hover,
 .nav a:active,
 .nav a:focus {
@@ -139,9 +132,5 @@ footer {
   .nav {
     padding-left: 33.333%;
     padding-right: 33.333%;
-  }
-  img {
-    float: left;
-    width: 35%;
   }
 }
