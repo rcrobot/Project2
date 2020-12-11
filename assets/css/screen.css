@@ -84,11 +84,13 @@ footer {
 }
 
 @media screen and (min-width: 31.25em) {
+  html {
+    padding-left: 16.666%;
+    padding-right: 16.666%;
+  }
   .nav {
     display: flex;
     margin-left: auto;
-    padding-left: 16.666%;
-    padding-right: 16.666%;
   }
   .nav li {
     flex: 1 0 0;
@@ -101,8 +103,6 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 1em;
-    padding-left: 16.666%;
-    padding-right: 16.666%;
     margin-bottom: 2em;
   }
   #contact,
