@@ -37,7 +37,7 @@ h3 {
   font-size: 1.5em;
   margin-top: 0.5em;
 }
-#education ul li{
+#education ul li {
   list-style-type: none;
   margin: 0;
   margin-left: 1em;
@@ -50,7 +50,7 @@ img {
   display: block;
   max-width: 100%;
 }
-ol li{
+ol li {
   list-style-type: disc;
   margin-left: 2em;
   margin-bottom: 0.25em;
