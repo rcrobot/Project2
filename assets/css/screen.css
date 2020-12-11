@@ -130,7 +130,7 @@ footer {
 
 @media screen and (min-width: 87.5em) {
   .nav {
-    padding-left: 33.333%;
-    padding-right: 33.333%;
+    margin-left: 16.666%;
+    margin-right: 16.666%;
   }
 }
