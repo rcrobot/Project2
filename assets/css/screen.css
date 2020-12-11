@@ -32,6 +32,7 @@ h2 {
   font-size: 1.5em; /* 23.99px/16px */
   line-height: 1.5em; /* 36px/23.99px */
   padding-top: 0.5em; /* 12px/23.99px */
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -84,6 +85,10 @@ nav ul {
 .nav a:focus {
   background-color: darkgrey;
 }
+footer {
+  font-size: 0.75em;
+  text-align: center;
+}
 
 @media screen and (min-width: 31.25em) {
   .nav {
@@ -102,8 +107,10 @@ nav ul {
   article {
     display: grid;
     grid-template-columns: auto auto;
+    grid-column-gap: 1em;
     padding-left: 16.666%;
     padding-right: 16.666%;
+    margin-bottom: 2em;
   }
   #contact,
   #education {
@@ -117,9 +124,14 @@ nav ul {
     grid-column: 2;
     grid-row: 2;
   }
-  img {
+  #neighborhoods {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  figure {
+    grid-column: 1;
+    grid-row: 2;
     float: left;
-    width: 50%;
   }
 }
 
